@@ -1,0 +1,9 @@
+movie_id,title,release_year,runtime,original_language,genres,production_company
+M001,Inception,2010,148,en,Action|Science Fiction|Thriller,Legendary Pictures
+M002,The Dark Knight,2008,152,en,Drama|Action|Crime|Thriller,Legendary Pictures
+M003,Interstellar,2014,169,en,Adventure|Drama|Science Fiction,Paramount Pictures
+M004,Titanic,1997,195,en,Drama|Romance,Paramount Pictures
+M005,The Revenant,2015,157,en,Adventure|Drama|Western,New Regency Pictures
+M006,Shutter Island,2010,138,en,Drama|Thriller|Mystery,Paramount Pictures
+M007,The Wolf of Wall Street,2013,180,en,Crime|Drama|Comedy,Red Granite Pictures
+M008,The Prestige,2006,130,en,Drama|Mystery|Thriller,Touchstone Pictures

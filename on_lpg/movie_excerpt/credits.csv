@@ -1,0 +1,21 @@
+movie_id,person_name,job,character
+M001,Christopher Nolan,Director,
+M001,Leonardo DiCaprio,Actor,Dom Cobb
+M001,Joseph Gordon-Levitt,Actor,Arthur
+M002,Christopher Nolan,Director,
+M002,Christian Bale,Actor,Bruce Wayne / Batman
+M002,Heath Ledger,Actor,Joker
+M003,Christopher Nolan,Director,
+M003,Matthew McConaughey,Actor,Cooper
+M003,Anne Hathaway,Actor,Brand
+M004,James Cameron,Director,
+M004,Leonardo DiCaprio,Actor,Jack Dawson
+M004,Kate Winslet,Actor,Rose DeWitt Bukater
+M005,Alejandro González Iñárritu,Director,
+M005,Leonardo DiCaprio,Actor,Hugh Glass
+M006,Martin Scorsese,Director,
+M006,Leonardo DiCaprio,Actor,Teddy Daniels
+M007,Martin Scorsese,Director,
+M007,Leonardo DiCaprio,Actor,Jordan Belfort
+M008,Christopher Nolan,Director,
+M008,Christian Bale,Actor,Alfred Borden
