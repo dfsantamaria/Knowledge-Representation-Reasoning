@@ -1,16 +1,21 @@
 User Story – Film Production
-A film, characterized by its title $TITLE, is produced by a production company $PRODUZIONE.
+A film, characterized by its title $TITLE, is produced by a production company $COMPANY.
 
 Each film is characterized by the following information:
-- $GENERE: one or more film genres to which the film belongs;
+- $GENRE: one or more film genres to which the film belongs;
 - $TITLE: the film's title;
 - $COST: the total production cost;
-- $DURATA: the film's duration, expressed in minutes;
-- $ANNO: the year of production;
+- $RUNTIME: the film's duration, expressed in minutes;
+- $YEAR: the year of production;
 - $LANG: the film's original language;
 - $KEYWORD: a set of keywords, consisting of nouns, used to facilitate the search and identification of the film in databases.
-The production of a film involves several professional figures $EMPLOYEE. These figures correspond to individuals $PERSON who perform specific roles $RUOLO within the film production process.
+The production of a film involves several professional figures $EMPLOYEE. These figures correspond to individuals $PERSON who perform specific roles $ROLE within the film production process.
 
-The main professional figures involved include:
-- $REGISTA: the person responsible for directing the film and coordinating the filming process;
-- $ATTORE: the person who portrays one or more characters $CHARACTER in the film.
+The roles involved include:
+- $DIRECTOR: the person responsible for directing the film and coordinating the filming process;
+- $ACTOR: the person who portrays one or more characters $CHARACTER in the film.
+
+
+Open Questions:
+-> What is the relationship between $GENRE and $KEYWORD?
+-> Are there shared vocabularies for well-known nouns?
