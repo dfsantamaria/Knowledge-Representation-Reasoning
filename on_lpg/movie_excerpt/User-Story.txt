@@ -1,0 +1,16 @@
+User Story – Film Production
+A film, characterized by its title $TITLE, is produced by a production company $PRODUZIONE.
+
+Each film is characterized by the following information:
+- $GENERE: one or more film genres to which the film belongs;
+- $TITLE: the film's title;
+- $COST: the total production cost;
+- $DURATA: the film's duration, expressed in minutes;
+- $ANNO: the year of production;
+- $LANG: the film's original language;
+- $KEYWORD: a set of keywords, consisting of nouns, used to facilitate the search and identification of the film in databases.
+The production of a film involves several professional figures $EMPLOYEE. These figures correspond to individuals $PERSON who perform specific roles $RUOLO within the film production process.
+
+The main professional figures involved include:
+- $REGISTA: the person responsible for directing the film and coordinating the filming process;
+- $ATTORE: the person who portrays one or more characters $CHARACTER in the film.
