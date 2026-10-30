@@ -1,0 +1,406 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -21,
+        "y": 0
+      },
+      "caption": "FILM",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 157.12954834808681,
+        "y": -30
+      },
+      "caption": "COMPANY",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 157.12954834808681,
+        "y": 118.5995952999275
+      },
+      "caption": "EMPLOYEE",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 330.80781494876544,
+        "y": 99.14502863314456
+      },
+      "caption": "ROLE",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 502.53204185924295,
+        "y": -1.4210854715202004e-14
+      },
+      "caption": "ACTOR",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 482.1582868350682,
+        "y": 186.52726431867833
+      },
+      "caption": "DIRECTOR",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 157.12954834808681,
+        "y": 293.3640666709951
+      },
+      "caption": "PERSON",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 330.80781494876544,
+        "y": 273.9095000042121
+      },
+      "caption": "NAME",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 330.80781494876544,
+        "y": 393.63726064528447
+      },
+      "caption": "SURNAME",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 178.27153833991034,
+        "y": -149.9640506421488
+      },
+      "caption": "COST",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 33.84043497230044,
+        "y": -206.8538776335819
+      },
+      "caption": "TITLE",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -98.29178136222163,
+        "y": -199.55445505889995
+      },
+      "caption": "GENRE",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -214.37923319251377,
+        "y": -149.9640506421488
+      },
+      "caption": "RUNTIME",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": -268.58506109487973,
+        "y": -30
+      },
+      "caption": "YEAR",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": -244.72976469942157,
+        "y": 99.14502863314456
+      },
+      "caption": "KEYWORD",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": -98.29178136222163,
+        "y": 163.26700992101232
+      },
+      "caption": "LANG",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": 502.53204185924295,
+        "y": -175.90290182076814
+      },
+      "caption": "CHARACTER",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "n1",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n2"
+    },
+    {
+      "id": "n2",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n3"
+    },
+    {
+      "id": "n3",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n4"
+    },
+    {
+      "id": "n4",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n5"
+    },
+    {
+      "id": "n5",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n6"
+    },
+    {
+      "id": "n6",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n7"
+    },
+    {
+      "id": "n7",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n8"
+    },
+    {
+      "id": "n8",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n9"
+    },
+    {
+      "id": "n9",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n10"
+    },
+    {
+      "id": "n10",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n11"
+    },
+    {
+      "id": "n11",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n12"
+    },
+    {
+      "id": "n12",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n13"
+    },
+    {
+      "id": "n13",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n14"
+    },
+    {
+      "id": "n14",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n15"
+    },
+    {
+      "id": "n15",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n16"
+    }
+  ]
+}
