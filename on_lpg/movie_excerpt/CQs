@@ -1,0 +1,11 @@
+Competency Questions
+
+-Functional CQs:
+--fCQ1: Given a film, the list of people who worked on it and their respective roles (e.g., actor, director).
+---GP: Film → Employee → Person; Employee → Role → (Actor, Director)
+--fCQ2: Given an actor, the list of films they have participated in
+---GP: Actor → Role → Employee → Film
+--fCQ3: Given a director, the list of films they have directed.
+---GP: Director → Role → Employee → Film
+--fCQ4: Given a company, the list of employees and the roles they performed.
+---GP: Company → Film → Employee → Person; Employee → Role
