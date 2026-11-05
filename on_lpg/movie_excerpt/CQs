@@ -9,3 +9,26 @@ Competency Questions
 ---GP: Director → Role → Employee → Film
 --fCQ4: Given a company, the list of employees and the roles they performed.
 ---GP: Company → Film → Employee → Person; Employee → Role
+
+-Supplementary CQs:
+--sCQ2: Given a genre, the list of people who worked on it and their respective roles (e.g., actor, director).
+---GP: Genre->Film → Employee → Person; Employee → Role → (Actor, Director) 
+
+-Quality CQs:
+--qCQ1: Chech whether a film is a remake.
+---GP: EMPTY
+--qCQ2: Find the employee that worked both as director and actor in the same film.
+---GP: Employee -> Role-> Actor; Employee-> Role-> Director; Employee -> Film
+--qCQ3: Which is the most frequent keyword.
+---GP: MAX(COUNT-DISTINCT(KEYWORD -> FILM))
+
+-Coverage CQs:
+--gCQ1: Check whether a person worked for a given a company.
+---GP: Person->Employee->Film->Company
+--gCQ2: Find the maximum cost for a film given a company
+---GP: MAX(Company->Film->Cost)
+
+-Complementary CQs:
+--cCQ1: Given an employee, the list of films they have worked on and the roles they performed in each film.
+--GP: Person → Employee → Film; Employee → Role
+
