@@ -1,0 +1,406 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 440.1884317273839,
+        "y": 391.38681372277614
+      },
+      "caption": "FILM",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 815.1624797578141,
+        "y": 238.63962587894733
+      },
+      "caption": "COMPANY",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 1004.0447547868451,
+        "y": 441.8835366155635
+      },
+      "caption": "ROLE",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 1277.0114342653028,
+        "y": 391.38681372277614
+      },
+      "caption": "ACTOR",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 1200.3362817670054,
+        "y": 638.1750635957237
+      },
+      "caption": "DIRECTOR",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 729.3542706492851,
+        "y": 816.006923268946
+      },
+      "caption": "PERSON",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 954.006943505416,
+        "y": 723.188147013504
+      },
+      "caption": "NAME",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 909.4710852609818,
+        "y": 996.1237378806428
+      },
+      "caption": "SURNAME",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 687.9102530274785,
+        "y": 143.66499242268165
+      },
+      "caption": "COST",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 518.8474738820046,
+        "y": 50
+      },
+      "caption": "TITLE",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 307.0808283242849,
+        "y": 50
+      },
+      "caption": "GENRE",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 140.46949204132096,
+        "y": 191.83235866387616
+      },
+      "caption": "RUNTIME",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 75,
+        "y": 361.38681372277614
+      },
+      "caption": "YEAR",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 109.2863190718968,
+        "y": 548.7601993622847
+      },
+      "caption": "KEYWORD",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 284.71989505837996,
+        "y": 723.188147013504
+      },
+      "caption": "LANG",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": 1308.915768505134,
+        "y": 143.66499242268165
+      },
+      "caption": "CHARACTER",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": 687.9102530274785,
+        "y": 534.40907393453
+      },
+      "caption": "Employment",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n3"
+    },
+    {
+      "id": "n1",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n4"
+    },
+    {
+      "id": "n2",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n6"
+    },
+    {
+      "id": "n3",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n7"
+    },
+    {
+      "id": "n4",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n8"
+    },
+    {
+      "id": "n5",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n9"
+    },
+    {
+      "id": "n6",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n10"
+    },
+    {
+      "id": "n7",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n11"
+    },
+    {
+      "id": "n8",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n12"
+    },
+    {
+      "id": "n9",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n13"
+    },
+    {
+      "id": "n10",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n14"
+    },
+    {
+      "id": "n11",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n15"
+    },
+    {
+      "id": "n12",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n16"
+    },
+    {
+      "id": "n13",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n16"
+    },
+    {
+      "id": "n14",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n16"
+    },
+    {
+      "id": "n15",
+      "type": "",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n16",
+      "toId": "n5"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+-Goal: representing the information related to films and employees.
+-Purposes: 
+---Production Department	manages film projects, production schedules and assigned employees.
+---Human Resources (HR)	manages employee details, contracts, roles and salaries.
+---Casting Department	searches for actors and assigns them to film roles.
+---Direction Department	identifies directors and tracks their film projects.
+---Accounting Department manages employee salaries, film budgets and production costs.
+---Marketing Department	retrieves film titles, genres, release dates and directors for promotion.
+---Distribution Department	manages film releases, distribution information and availability.
+
+
+User Story
+A company recruits personnel for a film production
+
+Each film is characterized by the following information:
+- $GENRE: one or more film genres to which the film belongs;
+- $TITLE: the film's title;
+- $COST: the total production cost;
+- $RUNTIME: the film's duration, expressed in minutes;
+- $YEAR: the year of production;
+- $LANG: the film's original language;
+- $KEYWORD: a set of keywords, consisting of nouns, used to facilitate the search and identification of the film in databases.
+
+The production involves several professional figures $EMPLOYEE. These figures correspond to individuals $PERSON who perform specific roles $ROLE within the film production process.
+
+The roles involved include:
+- $DIRECTOR: the person responsible for directing the film and coordinating the filming process;
+- $ACTOR: the person who portrays one or more characters $CHARACTER in the film.
+
+
+Open Questions:
+-> What is the relationship between $GENRE and $KEYWORD?
+-> Are there shared vocabularies for well-known nouns?

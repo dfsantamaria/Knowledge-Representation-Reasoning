@@ -1,0 +1,46 @@
+Competency Questions
+
+The CQs (Competency Questions) reveal that the model still contains some ambiguity. In particular, the association between Film, Employee, and Role is ambiguous, even though the GPs are successfully satisfied.
+
+More specifically, the current model does not allow us to identify which role an employee performs in each individual film.
+
+This highlights a limitation in the current conceptualisation: although the model may satisfy the GPs, it does not fully capture the semantics required to answer all the CQs correctly.
+
+Therefore, a refactoring is needed to eliminate the ambiguity. The proposed solution is presented in V2.
+
+
+-Functional CQs:
+--fCQ1: Given a film, the list of people who worked on it and their respective roles (e.g., actor, director).
+---GP: Film->Commitment->Person; Commitment → Role → (Actor, Director)
+--fCQ2: Given an actor, the list of films they have participated in
+---GP: Commitment -> Role -> Actor; Commitment → Film
+--fCQ3: Given a director, the list of films they have directed.
+---GP: Commitment -> Role -> Director; Commitment → Film
+--fCQ4: Given a company, the list of employees and the roles they performed.
+---GP: Company → Commitment -> Film; Commitment → Person; Commitment → Role
+
+
+-Supplementary CQs:
+--sCQ2: Given a genre, the list of people who worked on it and their respective roles (e.g., actor, director).
+---GP: Genre->Film -> Commitment->Person; Commitment → Role → (Actor, Director) 
+
+
+-Quality CQs:
+--qCQ1: Chech whether a film is a remake.
+---GP: EMPTY
+--qCQ2: Find the employee that worked both as director and actor in the same film.
+---GP: Commitment -> Role-> Actor; Commitment-> Role-> Director; Commitment -> Film
+--qCQ3: Which is the most frequent keyword.
+---GP: MAX(COUNT-DISTINCT(KEYWORD -> FILM))
+
+-Coverage CQs:
+--gCQ1: Check whether a person worked for a given a company.
+---GP: Person->Commitment->Film; Commitment->Company
+--gCQ2: Find the maximum cost for a film given a company
+---GP: MAX(Commitment->Film->Cost; Commitment->Company)
+
+-Complementary CQs:
+--cCQ1: Given an employee, the list of films they have worked on and the roles they performed in each film.
+--GP: Person → Commitment → Film; Commitment → Role
+
+
