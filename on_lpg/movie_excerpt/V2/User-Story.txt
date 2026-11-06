@@ -21,7 +21,7 @@ Each film is characterized by the following information:
 - $LANG: the film's original language;
 - $KEYWORD: a set of keywords, consisting of nouns, used to facilitate the search and identification of the film in databases.
 
-The production involves several professional figures $EMPLOYEE. These figures correspond to individuals $PERSON who perform specific roles $ROLE within the film production process.
+The company $COMPANY commits ($COMMITMENT) several professional figures $EMPLOYEE for a $FILM. These figures correspond to individuals $PERSON who perform specific roles $ROLE within the $COMMITMENT.
 
 The roles involved include:
 - $DIRECTOR: the person responsible for directing the film and coordinating the filming process;
