@@ -1,18 +1,30 @@
 Competency Questions
 
+The CQs (Competency Questions) reveal that the model still contains some ambiguity. In particular, the association between Film, Employee, and Role is ambiguous, even though the GPs are successfully satisfied.
+
+More specifically, the current model does not allow us to identify which role an employee performs in each individual film.
+
+This highlights a limitation in the current conceptualisation: although the model may satisfy the GPs, it does not fully capture the semantics required to answer all the CQs correctly.
+
+Therefore, a refactoring is needed to eliminate the ambiguity. The proposed solution is presented in V2.
+
+
 -Functional CQs:
 --fCQ1: Given a film, the list of people who worked on it and their respective roles (e.g., actor, director).
 ---GP: Film → Employee → Person; Employee → Role → (Actor, Director)
+--- Semanticly Incorrect
 --fCQ2: Given an actor, the list of films they have participated in
 ---GP: Actor → Role → Employee → Film
 --fCQ3: Given a director, the list of films they have directed.
 ---GP: Director → Role → Employee → Film
 --fCQ4: Given a company, the list of employees and the roles they performed.
 ---GP: Company → Film → Employee → Person; Employee → Role
+--- Semanticly Incorrect
 
 -Supplementary CQs:
 --sCQ2: Given a genre, the list of people who worked on it and their respective roles (e.g., actor, director).
 ---GP: Genre->Film → Employee → Person; Employee → Role → (Actor, Director) 
+--- Semanticly Incorrect
 
 -Quality CQs:
 --qCQ1: Chech whether a film is a remake.
@@ -31,4 +43,5 @@ Competency Questions
 -Complementary CQs:
 --cCQ1: Given an employee, the list of films they have worked on and the roles they performed in each film.
 --GP: Person → Employee → Film; Employee → Role
+--- Semanticly Incorrect
 
