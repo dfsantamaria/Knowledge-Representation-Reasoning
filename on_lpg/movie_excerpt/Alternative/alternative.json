@@ -56,10 +56,10 @@
     {
       "id": "n0",
       "position": {
-        "x": 440.1884317273839,
-        "y": 419.95369727848583
+        "x": 360.10923520486136,
+        "y": 432.51440476970026
       },
-      "caption": "FILM",
+      "caption": "INFORMATION",
       "labels": [],
       "properties": {},
       "style": {}
@@ -67,8 +67,8 @@
     {
       "id": "n1",
       "position": {
-        "x": 815.1624797578141,
-        "y": 267.206509434657
+        "x": 1004.0447547868451,
+        "y": 198.59095350818876
       },
       "caption": "PRODUCTION",
       "labels": [],
@@ -144,8 +144,8 @@
     {
       "id": "n8",
       "position": {
-        "x": 687.9102530274785,
-        "y": 172.23187597839132
+        "x": 895.1336160058047,
+        "y": 9.951327629241433
       },
       "caption": "COST",
       "labels": [],
@@ -188,8 +188,8 @@
     {
       "id": "n12",
       "position": {
-        "x": 75,
-        "y": 389.95369727848583
+        "x": 1051.6845658450889,
+        "y": 9.951327629241433
       },
       "caption": "YEAR",
       "labels": [],
@@ -243,10 +243,21 @@
     {
       "id": "n17",
       "position": {
-        "x": 1064.5511082321855,
-        "y": 172.23187597839132
+        "x": 1253.4333832612165,
+        "y": 103.61632005192308
       },
       "caption": "Company",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": 668.4178277953114,
+        "y": 320.5146659151718
+      },
+      "caption": "FILM",
       "style": {},
       "labels": [],
       "properties": {}
@@ -294,16 +305,6 @@
       }
     },
     {
-      "id": "n4",
-      "fromId": "n0",
-      "toId": "n8",
-      "type": "HAS_COST",
-      "properties": {},
-      "style": {
-        "directionality": "directed"
-      }
-    },
-    {
       "id": "n5",
       "fromId": "n0",
       "toId": "n9",
@@ -328,16 +329,6 @@
       "fromId": "n0",
       "toId": "n11",
       "type": "HAS_RUNTIME",
-      "properties": {},
-      "style": {
-        "directionality": "directed"
-      }
-    },
-    {
-      "id": "n8",
-      "fromId": "n0",
-      "toId": "n12",
-      "type": "HAS_YEAR",
       "properties": {},
       "style": {
         "directionality": "directed"
@@ -394,14 +385,6 @@
       }
     },
     {
-      "id": "n15",
-      "fromId": "n16",
-      "toId": "n0",
-      "type": "COMMITTED_FOR",
-      "properties": {},
-      "style": {}
-    },
-    {
       "id": "n16",
       "type": "INVOLVES_ROLE",
       "style": {},
@@ -416,6 +399,38 @@
       "properties": {},
       "fromId": "n17",
       "toId": "n1"
+    },
+    {
+      "id": "n18",
+      "type": "HAS_COST",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n8"
+    },
+    {
+      "id": "n19",
+      "type": "HAS_YEAR",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n12"
+    },
+    {
+      "id": "n20",
+      "type": "COMMITTED_FOR",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n18"
+    },
+    {
+      "id": "n21",
+      "type": "HAS_INFORMATION",
+      "style": {},
+      "properties": {},
+      "fromId": "n18",
+      "toId": "n0"
     }
   ]
 }
