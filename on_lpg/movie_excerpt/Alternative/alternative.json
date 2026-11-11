@@ -56,8 +56,8 @@
     {
       "id": "n1",
       "position": {
-        "x": 379.82291613296456,
-        "y": 418.56307714045886
+        "x": 278.6644825823196,
+        "y": 212.3373395949583
       },
       "caption": "INFORMATION",
       "labels": [],
@@ -144,8 +144,8 @@
     {
       "id": "n9",
       "position": {
-        "x": 914.847296933908,
-        "y": -4
+        "x": 851.5635082963777,
+        "y": -19.23233389922629
       },
       "caption": "COST",
       "labels": [],
@@ -155,8 +155,8 @@
     {
       "id": "n10",
       "position": {
-        "x": 538.5611548101078,
-        "y": 64.61555592646823
+        "x": 614.9603311264935,
+        "y": 18.17684091062568
       },
       "caption": "TITLE",
       "labels": [],
@@ -166,8 +166,8 @@
     {
       "id": "n11",
       "position": {
-        "x": 279.92222325975314,
-        "y": 36.04867237075857
+        "x": 203.08504497265727,
+        "y": 805.1231449534491
       },
       "caption": "GENRE",
       "labels": [],
@@ -177,8 +177,8 @@
     {
       "id": "n12",
       "position": {
-        "x": 160.18317296942416,
-        "y": 206.4479145903444
+        "x": 159.95338210347833,
+        "y": -35.46720759199303
       },
       "caption": "RUNTIME",
       "labels": [],
@@ -188,8 +188,8 @@
     {
       "id": "n13",
       "position": {
-        "x": 1100.457644436675,
-        "y": -19.23233389922629
+        "x": 1112.3444450892214,
+        "y": -67.08917254431864
       },
       "caption": "YEAR",
       "labels": [],
@@ -199,8 +199,8 @@
     {
       "id": "n14",
       "position": {
-        "x": 129,
-        "y": 563.3757552887529
+        "x": 409.0815316397271,
+        "y": 840.5069699628948
       },
       "caption": "KEYWORD",
       "labels": [],
@@ -210,8 +210,8 @@
     {
       "id": "n15",
       "position": {
-        "x": 304.43357598648316,
-        "y": 737.8037029399723
+        "x": 425.0229584290383,
+        "y": -67.08917254431864
       },
       "caption": "LANG",
       "labels": [],
@@ -272,6 +272,39 @@
       "style": {},
       "labels": [],
       "properties": {}
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 278.6644825823196,
+        "y": 400.7893369769026
+      },
+      "caption": "INFORMATION",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 37.079429514588576,
+        "y": 378.1417477282867
+      },
+      "caption": "BASIC INFORMATION",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": 37.079429514588576,
+        "y": 723.5267275400895
+      },
+      "caption": "CLASSIFICATION INFORMATION",
+      "style": {},
+      "labels": [],
+      "properties": {}
     }
   ],
   "relationships": [
@@ -326,30 +359,10 @@
       }
     },
     {
-      "id": "n5",
-      "fromId": "n1",
-      "toId": "n11",
-      "type": " HAS_GENRE",
-      "properties": {},
-      "style": {
-        "directionality": "directed"
-      }
-    },
-    {
       "id": "n6",
       "fromId": "n1",
       "toId": "n12",
       "type": "HAS_RUNTIME",
-      "properties": {},
-      "style": {
-        "directionality": "directed"
-      }
-    },
-    {
-      "id": "n7",
-      "fromId": "n1",
-      "toId": "n14",
-      "type": "HAS_KEYWORD",
       "properties": {},
       "style": {
         "directionality": "directed"
@@ -456,6 +469,50 @@
       "properties": {},
       "fromId": "n20",
       "toId": "n20"
+    },
+    {
+      "id": "n22",
+      "type": " HAS_GENRE",
+      "fromId": "n21",
+      "toId": "n11",
+      "style": {
+        "directionality": "directed"
+      },
+      "properties": {}
+    },
+    {
+      "id": "n24",
+      "type": "HAS_KEYWORD",
+      "fromId": "n21",
+      "toId": "n14",
+      "style": {
+        "directionality": "directed"
+      },
+      "properties": {}
+    },
+    {
+      "id": "n26",
+      "type": "HAS_INFORMATION",
+      "fromId": "n19",
+      "toId": "n21",
+      "style": {},
+      "properties": {}
+    },
+    {
+      "id": "n27",
+      "type": "IS_TYPE_OF",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n22"
+    },
+    {
+      "id": "n28",
+      "type": "IS_TYPE_OF",
+      "style": {},
+      "properties": {},
+      "fromId": "n21",
+      "toId": "n23"
     }
   ]
 }
