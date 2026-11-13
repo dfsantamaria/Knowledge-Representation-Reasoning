@@ -1,0 +1,227 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n19",
+      "position": {
+        "x": 1937.8730342208248,
+        "y": 399.8721761368031
+      },
+      "caption": "",
+      "labels": [
+        "FILM"
+      ],
+      "properties": {
+        "HAS_TITLE": "STRING",
+        "HAS_RELEASE_DATE": "XSD_DATE",
+        "HAS_RUNTIME": "XSD_TIME",
+        "HAS_LANGUAGE": "XSD_LANG",
+        "HAS_GENRE": "LIST[STRING]"
+      },
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 2592.845478511086,
+        "y": 5.951327629241433
+      },
+      "caption": "",
+      "labels": [
+        "COMPANY"
+      ],
+      "properties": {
+        "NAME": "STRING"
+      },
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 2592.845478511086,
+        "y": 304.16987182212324
+      },
+      "caption": "",
+      "labels": [
+        "ACTOR",
+        "DIRECTOR"
+      ],
+      "properties": {
+        "HAS_CHARACTER": "STRING"
+      },
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 2249.6614696345255,
+        "y": 718.5140570340737
+      },
+      "caption": "",
+      "labels": [
+        "PERSON"
+      ],
+      "properties": {
+        "HAS_SURNAME ": "STRING",
+        "HAS_NAME ": "STRING"
+      },
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": 2074.106454378865,
+        "y": 5.951327629241433
+      },
+      "caption": "",
+      "labels": [
+        "COST"
+      ],
+      "properties": {
+        "HAS_COST_VALUE": "FLOAT",
+        "HAS_CURRENCY": "STRING"
+      },
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": 1641.3051347986848,
+        "y": 228.64861957242871
+      },
+      "caption": "",
+      "labels": [
+        "KEYWORD"
+      ],
+      "properties": {
+        "HAS_KEYWORD_VALUE": "LIST[STRING]"
+      },
+      "style": {}
+    },
+    {
+      "id": "n25",
+      "position": {
+        "x": 2276.7109767517195,
+        "y": 449.4592106482976
+      },
+      "caption": "",
+      "labels": [
+        "COMMITMENT"
+      ],
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n22",
+      "fromId": "n19",
+      "toId": "n23",
+      "type": "HAS_COST",
+      "properties": {},
+      "style": {
+        "directionality": "directed"
+      }
+    },
+    {
+      "id": "n23",
+      "fromId": "n19",
+      "toId": "n24",
+      "type": "HAS_KEYWORD",
+      "properties": {},
+      "style": {
+        "directionality": "directed"
+      }
+    },
+    {
+      "id": "n24",
+      "fromId": "n21",
+      "toId": "n25",
+      "type": "INVOLVES_ROLE",
+      "properties": {},
+      "style": {
+        "directionality": "undirected"
+      }
+    },
+    {
+      "id": "n25",
+      "fromId": "n20",
+      "toId": "n25",
+      "type": "COMMITTED",
+      "properties": {},
+      "style": {
+        "directionality": "directed"
+      }
+    },
+    {
+      "id": "n26",
+      "fromId": "n25",
+      "toId": "n22",
+      "type": "COMMITTED_TO",
+      "properties": {},
+      "style": {
+        "directionality": "directed"
+      }
+    },
+    {
+      "id": "n27",
+      "fromId": "n25",
+      "toId": "n19",
+      "type": "COMMITTED_FOR",
+      "properties": {},
+      "style": {}
+    }
+  ]
+}
