@@ -54,10 +54,10 @@
   },
   "nodes": [
     {
-      "id": "n1",
+      "id": "n0",
       "position": {
-        "x": 278.6644825823196,
-        "y": 212.3373395949583
+        "x": 316.585053067731,
+        "y": 329.42651213927695
       },
       "caption": "INFORMATION",
       "labels": [],
@@ -65,10 +65,10 @@
       "style": {}
     },
     {
-      "id": "n2",
+      "id": "n1",
       "position": {
-        "x": 1023.7584357149483,
-        "y": 184.63962587894733
+        "x": 1061.6790062003597,
+        "y": 301.72879842326597
       },
       "caption": "PRODUCTION",
       "labels": [],
@@ -76,10 +76,10 @@
       "style": {}
     },
     {
-      "id": "n3",
+      "id": "n2",
       "position": {
-        "x": 1112.3444450892214,
-        "y": 511.3921762053705
+        "x": 1150.2650155746328,
+        "y": 628.4813487496891
       },
       "caption": "ROLE",
       "labels": [],
@@ -87,10 +87,10 @@
       "style": {}
     },
     {
-      "id": "n4",
+      "id": "n3",
       "position": {
-        "x": 1438.4624834102892,
-        "y": 563.3757552887529
+        "x": 1476.3830538957006,
+        "y": 680.4649278330716
       },
       "caption": "ACTOR",
       "labels": [],
@@ -98,10 +98,10 @@
       "style": {}
     },
     {
-      "id": "n5",
+      "id": "n4",
       "position": {
-        "x": 1304.0531677508397,
-        "y": 780.2844093921072
+        "x": 1341.9737382362512,
+        "y": 897.3735819364259
       },
       "caption": "DIRECTOR",
       "labels": [],
@@ -109,10 +109,10 @@
       "style": {}
     },
     {
-      "id": "n6",
+      "id": "n5",
       "position": {
-        "x": 663.6545224425429,
-        "y": 892.9324973217963
+        "x": 701.5750929279543,
+        "y": 1010.021669866115
       },
       "caption": "PERSON",
       "labels": [],
@@ -120,10 +120,10 @@
       "style": {}
     },
     {
-      "id": "n7",
+      "id": "n6",
       "position": {
-        "x": 973.7206244335191,
-        "y": 737.8037029399723
+        "x": 1011.6411949189305,
+        "y": 854.8928754842909
       },
       "caption": "NAME",
       "labels": [],
@@ -131,10 +131,10 @@
       "style": {}
     },
     {
-      "id": "n8",
+      "id": "n7",
       "position": {
-        "x": 1112.3444450892214,
-        "y": 931.8699730749893
+        "x": 1150.2650155746328,
+        "y": 1048.959145619308
       },
       "caption": "SURNAME",
       "labels": [],
@@ -142,10 +142,10 @@
       "style": {}
     },
     {
-      "id": "n9",
+      "id": "n8",
       "position": {
-        "x": 851.5635082963777,
-        "y": -19.23233389922629
+        "x": 889.4840787817891,
+        "y": 97.85683864509235
       },
       "caption": "COST",
       "labels": [],
@@ -153,10 +153,10 @@
       "style": {}
     },
     {
-      "id": "n10",
+      "id": "n9",
       "position": {
-        "x": 614.9603311264935,
-        "y": 18.17684091062568
+        "x": 652.880901611905,
+        "y": 135.26601345494433
       },
       "caption": "TITLE",
       "labels": [],
@@ -164,10 +164,10 @@
       "style": {}
     },
     {
-      "id": "n11",
+      "id": "n10",
       "position": {
-        "x": 203.08504497265727,
-        "y": 805.1231449534491
+        "x": 241.0056154580687,
+        "y": 922.2123174977678
       },
       "caption": "GENRE",
       "labels": [],
@@ -175,10 +175,10 @@
       "style": {}
     },
     {
-      "id": "n12",
+      "id": "n11",
       "position": {
-        "x": 159.95338210347833,
-        "y": -35.46720759199303
+        "x": 197.87395258888975,
+        "y": 81.62196495232561
       },
       "caption": "RUNTIME",
       "labels": [],
@@ -186,10 +186,10 @@
       "style": {}
     },
     {
-      "id": "n13",
+      "id": "n12",
       "position": {
-        "x": 1112.3444450892214,
-        "y": -67.08917254431864
+        "x": 1150.2650155746328,
+        "y": 50
       },
       "caption": "YEAR",
       "labels": [],
@@ -197,10 +197,10 @@
       "style": {}
     },
     {
-      "id": "n14",
+      "id": "n13",
       "position": {
-        "x": 409.0815316397271,
-        "y": 840.5069699628948
+        "x": 447.0021021251385,
+        "y": 957.5961425072135
       },
       "caption": "KEYWORD",
       "labels": [],
@@ -208,10 +208,10 @@
       "style": {}
     },
     {
-      "id": "n15",
+      "id": "n14",
       "position": {
-        "x": 425.0229584290383,
-        "y": -67.08917254431864
+        "x": 462.9435289144497,
+        "y": 50
       },
       "caption": "LANG",
       "labels": [],
@@ -219,10 +219,10 @@
       "style": {}
     },
     {
-      "id": "n16",
+      "id": "n15",
       "position": {
-        "x": 1494.40492261435,
-        "y": 892.9324973217963
+        "x": 1532.3254930997614,
+        "y": 1010.021669866115
       },
       "caption": "CHARACTER",
       "labels": [],
@@ -230,10 +230,10 @@
       "style": {}
     },
     {
-      "id": "n17",
+      "id": "n16",
       "position": {
-        "x": 582.8463849291838,
-        "y": 511.3921762053705
+        "x": 620.7669554145953,
+        "y": 628.4813487496891
       },
       "caption": "EMPLOYMENT",
       "labels": [],
@@ -241,10 +241,10 @@
       "style": {}
     },
     {
-      "id": "n18",
+      "id": "n17",
       "position": {
-        "x": 1273.1470641893197,
-        "y": 89.66499242268165
+        "x": 1311.0676346747312,
+        "y": 206.7541649670003
       },
       "caption": "Company",
       "labels": [],
@@ -252,10 +252,10 @@
       "style": {}
     },
     {
-      "id": "n19",
+      "id": "n18",
       "position": {
-        "x": 688.1315087234145,
-        "y": 306.5633382859304
+        "x": 726.052079208826,
+        "y": 423.65251083024907
       },
       "caption": "FILM",
       "labels": [],
@@ -263,54 +263,64 @@
       "style": {}
     },
     {
-      "id": "n20",
+      "id": "n19",
       "position": {
-        "x": 1304.0531677508397,
-        "y": 270.2637871819834
+        "x": 1341.9737382362512,
+        "y": 387.35295972630206
       },
       "caption": "ACTIVITY",
-      "style": {},
       "labels": [],
-      "properties": {}
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 316.585053067731,
+        "y": 517.8785095212212
+      },
+      "caption": "INFORMATION",
+      "labels": [],
+      "properties": {},
+      "style": {}
     },
     {
       "id": "n21",
       "position": {
-        "x": 278.6644825823196,
-        "y": 400.7893369769026
+        "x": 75,
+        "y": 495.2309202726053
       },
-      "caption": "INFORMATION",
-      "style": {},
+      "caption": "BASIC INFORMATION",
       "labels": [],
-      "properties": {}
+      "properties": {},
+      "style": {}
     },
     {
       "id": "n22",
       "position": {
-        "x": 37.079429514588576,
-        "y": 378.1417477282867
-      },
-      "caption": "BASIC INFORMATION",
-      "style": {},
-      "labels": [],
-      "properties": {}
-    },
-    {
-      "id": "n23",
-      "position": {
-        "x": 37.079429514588576,
-        "y": 723.5267275400895
+        "x": 75,
+        "y": 840.6159000844082
       },
       "caption": "CLASSIFICATION INFORMATION",
-      "style": {},
       "labels": [],
-      "properties": {}
+      "properties": {},
+      "style": {}
     }
   ],
   "relationships": [
     {
       "id": "n0",
-      "fromId": "n3",
+      "fromId": "n2",
+      "toId": "n3",
+      "type": "IS_TYPE_OF",
+      "properties": {},
+      "style": {
+        "directionality": "directed"
+      }
+    },
+    {
+      "id": "n1",
+      "fromId": "n2",
       "toId": "n4",
       "type": "IS_TYPE_OF",
       "properties": {},
@@ -319,19 +329,9 @@
       }
     },
     {
-      "id": "n1",
-      "fromId": "n3",
-      "toId": "n5",
-      "type": "IS_TYPE_OF",
-      "properties": {},
-      "style": {
-        "directionality": "directed"
-      }
-    },
-    {
       "id": "n2",
-      "fromId": "n6",
-      "toId": "n7",
+      "fromId": "n5",
+      "toId": "n6",
       "type": "HAS_NAME",
       "properties": {},
       "style": {
@@ -340,8 +340,8 @@
     },
     {
       "id": "n3",
-      "fromId": "n6",
-      "toId": "n8",
+      "fromId": "n5",
+      "toId": "n7",
       "type": "HAS_SURNAME",
       "properties": {},
       "style": {
@@ -350,8 +350,8 @@
     },
     {
       "id": "n4",
-      "fromId": "n1",
-      "toId": "n10",
+      "fromId": "n0",
+      "toId": "n9",
       "type": "HAS_TITLE",
       "properties": {},
       "style": {
@@ -359,9 +359,9 @@
       }
     },
     {
-      "id": "n6",
-      "fromId": "n1",
-      "toId": "n12",
+      "id": "n5",
+      "fromId": "n0",
+      "toId": "n11",
       "type": "HAS_RUNTIME",
       "properties": {},
       "style": {
@@ -369,9 +369,9 @@
       }
     },
     {
-      "id": "n8",
-      "fromId": "n1",
-      "toId": "n15",
+      "id": "n6",
+      "fromId": "n0",
+      "toId": "n14",
       "type": "HAS_LANGUAGE",
       "properties": {},
       "style": {
@@ -379,9 +379,9 @@
       }
     },
     {
-      "id": "n9",
-      "fromId": "n4",
-      "toId": "n16",
+      "id": "n7",
+      "fromId": "n3",
+      "toId": "n15",
       "type": "PLAYS_CHARACTER",
       "properties": {},
       "style": {
@@ -389,130 +389,130 @@
       }
     },
     {
-      "id": "n11",
+      "id": "n8",
+      "fromId": "n16",
+      "toId": "n5",
       "type": "EMPLOYS",
+      "properties": {},
       "style": {
         "directionality": "directed"
-      },
-      "properties": {},
-      "fromId": "n17",
-      "toId": "n6"
+      }
     },
     {
-      "id": "n12",
-      "type": "EMPLOYED_FOR",
-      "style": {},
-      "properties": {},
-      "fromId": "n17",
-      "toId": "n3"
-    },
-    {
-      "id": "n13",
-      "fromId": "n18",
+      "id": "n9",
+      "fromId": "n16",
       "toId": "n2",
+      "type": "EMPLOYED_FOR",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "fromId": "n17",
+      "toId": "n1",
       "type": "PRODUCES",
       "properties": {},
       "style": {}
     },
     {
-      "id": "n14",
-      "fromId": "n2",
-      "toId": "n9",
+      "id": "n11",
+      "fromId": "n1",
+      "toId": "n8",
       "type": "HAS_COST",
       "properties": {},
       "style": {}
     },
     {
-      "id": "n15",
-      "fromId": "n2",
-      "toId": "n13",
+      "id": "n12",
+      "fromId": "n1",
+      "toId": "n12",
       "type": "HAS_YEAR",
       "properties": {},
       "style": {}
     },
     {
-      "id": "n16",
-      "fromId": "n2",
-      "toId": "n19",
+      "id": "n13",
+      "fromId": "n1",
+      "toId": "n18",
       "type": "COMMITTED_FOR",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n18",
+      "toId": "n0",
+      "type": "HAS_INFORMATION",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n1",
+      "toId": "n19",
+      "type": "INCLUDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n19",
+      "toId": "n16",
+      "type": "INVOLVES",
       "properties": {},
       "style": {}
     },
     {
       "id": "n17",
       "fromId": "n19",
-      "toId": "n1",
-      "type": "HAS_INFORMATION",
+      "toId": "n19",
+      "type": "DEPENDS_ON",
       "properties": {},
       "style": {}
     },
     {
       "id": "n18",
-      "type": "INCLUDES",
-      "style": {},
+      "type": "HAS_ATTRIBUTE",
+      "style": {
+        "directionality": "directed"
+      },
       "properties": {},
-      "fromId": "n2",
-      "toId": "n20"
+      "fromId": "n20",
+      "toId": "n10"
     },
     {
       "id": "n19",
-      "type": "INVOLVES",
-      "style": {},
+      "type": "HAS_ATTRIBUTE",
+      "style": {
+        "directionality": "directed"
+      },
       "properties": {},
       "fromId": "n20",
-      "toId": "n17"
+      "toId": "n13"
     },
     {
       "id": "n20",
-      "type": "DEPENDS_ON",
-      "style": {},
+      "fromId": "n18",
+      "toId": "n20",
+      "type": "HAS_INFORMATION",
       "properties": {},
-      "fromId": "n20",
-      "toId": "n20"
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n0",
+      "toId": "n21",
+      "type": "IS_TYPE_OF",
+      "properties": {},
+      "style": {}
     },
     {
       "id": "n22",
-      "type": " HAS_GENRE",
-      "fromId": "n21",
-      "toId": "n11",
-      "style": {
-        "directionality": "directed"
-      },
-      "properties": {}
-    },
-    {
-      "id": "n24",
-      "type": "HAS_KEYWORD",
-      "fromId": "n21",
-      "toId": "n14",
-      "style": {
-        "directionality": "directed"
-      },
-      "properties": {}
-    },
-    {
-      "id": "n26",
-      "type": "HAS_INFORMATION",
-      "fromId": "n19",
-      "toId": "n21",
-      "style": {},
-      "properties": {}
-    },
-    {
-      "id": "n27",
+      "fromId": "n20",
+      "toId": "n22",
       "type": "IS_TYPE_OF",
-      "style": {},
       "properties": {},
-      "fromId": "n1",
-      "toId": "n22"
-    },
-    {
-      "id": "n28",
-      "type": "IS_TYPE_OF",
-      "style": {},
-      "properties": {},
-      "fromId": "n21",
-      "toId": "n23"
+      "style": {}
     }
   ]
 }

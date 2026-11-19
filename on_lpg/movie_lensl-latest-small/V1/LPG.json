@@ -1,0 +1,274 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 604.7178117819801,
+        "y": 393.7536609953679
+      },
+      "caption": "",
+      "labels": [
+        "FILM"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 799.4212257742242,
+        "y": 762.5627294048325
+      },
+      "caption": "",
+      "labels": [
+        "PERSON",
+        "USER"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 1134.0023699014414,
+        "y": 529.7063339511037
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "INFORMATION"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 339.5903960327774,
+        "y": 1096.8241062086731
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "RATING"
+      ],
+      "properties": {
+        "HAS_RATING_VALUE": "FLOAT"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 218.30787871379243,
+        "y": 780.1635940635556
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "INFORMATION"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": -55.2322235864566,
+        "y": 980.5610526123289
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "CLASSIFICATION INFORMATION"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 604.7178117819801,
+        "y": 1003.257472938019
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "GENRE"
+      ],
+      "properties": {
+        "HAS_GENRE": "LIST[STRING]"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -110.99768807695926,
+        "y": 699.2860777820837
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "TIMESPAN"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 1470.0576435827327,
+        "y": 529.7063339511037
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "IDENTIFICATION INFORMATION"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 1325.30144823453,
+        "y": 780.1635940635556
+      },
+      "caption": "ID",
+      "style": {},
+      "labels": [],
+      "properties": {
+        "HAS_ID": "STRING"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n11",
+      "type": "ASSIGNS",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n9"
+    },
+    {
+      "id": "n12",
+      "type": "HAS_INFORMATION",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n9"
+    },
+    {
+      "id": "n13",
+      "type": "IS_TYPE_OF",
+      "style": {},
+      "properties": {},
+      "fromId": "n9",
+      "toId": "n10"
+    },
+    {
+      "id": "n14",
+      "type": "HAS_ATTRIBUTE",
+      "style": {},
+      "properties": {},
+      "fromId": "n9",
+      "toId": "n8"
+    },
+    {
+      "id": "n15",
+      "type": "HAS_ATTRIBUTE",
+      "style": {},
+      "properties": {},
+      "fromId": "n9",
+      "toId": "n11"
+    },
+    {
+      "id": "n16",
+      "type": "HAS_TIMESPAN",
+      "style": {},
+      "properties": {},
+      "fromId": "n9",
+      "toId": "n12"
+    },
+    {
+      "id": "n17",
+      "type": "HAS_INFORMATION",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n7"
+    },
+    {
+      "id": "n18",
+      "type": "HAS_INFORMATION",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n7"
+    },
+    {
+      "id": "n19",
+      "type": "IS_TYPE_OF",
+      "style": {},
+      "properties": {},
+      "fromId": "n7",
+      "toId": "n13"
+    },
+    {
+      "id": "n20",
+      "type": "HAS_ATTRIBUTE",
+      "style": {},
+      "properties": {},
+      "fromId": "n7",
+      "toId": "n14"
+    }
+  ]
+}
