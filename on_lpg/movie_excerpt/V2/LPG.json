@@ -54,10 +54,10 @@
   },
   "nodes": [
     {
-      "id": "n19",
+      "id": "n0",
       "position": {
-        "x": 1937.8730342208248,
-        "y": 399.8721761368031
+        "x": 371.56789942214004,
+        "y": 443.9208485075617
       },
       "caption": "",
       "labels": [
@@ -73,10 +73,10 @@
       "style": {}
     },
     {
-      "id": "n20",
+      "id": "n1",
       "position": {
-        "x": 2592.845478511086,
-        "y": 5.951327629241433
+        "x": 1026.5403437124014,
+        "y": 50
       },
       "caption": "",
       "labels": [
@@ -88,10 +88,10 @@
       "style": {}
     },
     {
-      "id": "n21",
+      "id": "n2",
       "position": {
-        "x": 2592.845478511086,
-        "y": 304.16987182212324
+        "x": 1026.5403437124014,
+        "y": 348.21854419288184
       },
       "caption": "",
       "labels": [
@@ -104,10 +104,10 @@
       "style": {}
     },
     {
-      "id": "n22",
+      "id": "n3",
       "position": {
-        "x": 2249.6614696345255,
-        "y": 718.5140570340737
+        "x": 683.3563348358407,
+        "y": 762.5627294048323
       },
       "caption": "",
       "labels": [
@@ -120,10 +120,10 @@
       "style": {}
     },
     {
-      "id": "n23",
+      "id": "n4",
       "position": {
-        "x": 2074.106454378865,
-        "y": 5.951327629241433
+        "x": 507.80131958018,
+        "y": 50
       },
       "caption": "",
       "labels": [
@@ -136,10 +136,10 @@
       "style": {}
     },
     {
-      "id": "n24",
+      "id": "n5",
       "position": {
-        "x": 1641.3051347986848,
-        "y": 228.64861957242871
+        "x": 75,
+        "y": 272.6972919431873
       },
       "caption": "",
       "labels": [
@@ -151,10 +151,10 @@
       "style": {}
     },
     {
-      "id": "n25",
+      "id": "n6",
       "position": {
-        "x": 2276.7109767517195,
-        "y": 449.4592106482976
+        "x": 710.4058419530347,
+        "y": 493.5078830190562
       },
       "caption": "",
       "labels": [
@@ -166,9 +166,9 @@
   ],
   "relationships": [
     {
-      "id": "n22",
-      "fromId": "n19",
-      "toId": "n23",
+      "id": "n0",
+      "fromId": "n0",
+      "toId": "n4",
       "type": "HAS_COST",
       "properties": {},
       "style": {
@@ -176,9 +176,9 @@
       }
     },
     {
-      "id": "n23",
-      "fromId": "n19",
-      "toId": "n24",
+      "id": "n1",
+      "fromId": "n0",
+      "toId": "n5",
       "type": "HAS_KEYWORD",
       "properties": {},
       "style": {
@@ -186,19 +186,9 @@
       }
     },
     {
-      "id": "n24",
-      "fromId": "n21",
-      "toId": "n25",
-      "type": "INVOLVES_ROLE",
-      "properties": {},
-      "style": {
-        "directionality": "undirected"
-      }
-    },
-    {
-      "id": "n25",
-      "fromId": "n20",
-      "toId": "n25",
+      "id": "n3",
+      "fromId": "n1",
+      "toId": "n6",
       "type": "COMMITTED",
       "properties": {},
       "style": {
@@ -206,9 +196,9 @@
       }
     },
     {
-      "id": "n26",
-      "fromId": "n25",
-      "toId": "n22",
+      "id": "n4",
+      "fromId": "n6",
+      "toId": "n3",
       "type": "COMMITTED_TO",
       "properties": {},
       "style": {
@@ -216,12 +206,20 @@
       }
     },
     {
-      "id": "n27",
-      "fromId": "n25",
-      "toId": "n19",
+      "id": "n5",
+      "fromId": "n6",
+      "toId": "n0",
       "type": "COMMITTED_FOR",
       "properties": {},
       "style": {}
+    },
+    {
+      "id": "n6",
+      "type": "INVOLVES_ROLE",
+      "style": {},
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n2"
     }
   ]
 }
