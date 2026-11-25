@@ -1,4 +1,5 @@
-# Knowledge-Representation-Reasoning
+# Knowledge Representation Reasoning, Department of Mathematics and Computer Science, University of Catania
+# Master Degree in Computer Science LM-18
 Material of the course Knowledge-Representation-Reasoning
 
 All rights reserved
